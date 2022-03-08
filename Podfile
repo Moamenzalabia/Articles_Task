@@ -5,6 +5,7 @@ target 'Articles_Task' do
   use_frameworks!
 
   pod 'Moya', '~> 15.0'
+  pod 'SDWebImage'
 
   target 'Articles_TaskTests' do
     inherit! :search_paths

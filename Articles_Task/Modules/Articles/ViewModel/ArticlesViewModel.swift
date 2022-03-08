@@ -96,9 +96,8 @@ class ArticlesViewModel: ArticlesViewModelProtocol {
         return ArticleListCellUIModel(bylineText: article.byline, descText: desc, imageUrl: articleImageURL, published_dateText:  article.published_date ?? "")
     }
     
-    func userDidSelectArticle( at indexPath: IndexPath ) {
-        let article = articles[indexPath.row]
-        selectedArticle = article
-        print(article.title ?? "")
+    func userDidSelectArticle( at indexPath: IndexPath ) -> ArticleResultModel? {
+        selectedArticle = articles[indexPath.row]
+        return selectedArticle
     }
 }

@@ -26,7 +26,7 @@ protocol ArticlesViewModelProtocol {
     /// fetch articles data
     func fetchArticles()
     /// get article UI data
-    func getArticleUIDataModel( at indexPath: IndexPath ) -> ArticleListCellUIModel?
+    func getArticleUIDataModel(at indexPath: IndexPath ) -> ArticleListCellUIModel?
     /// user did select an article to show it's details
-    func userDidSelectArticle( at indexPath: IndexPath )
+    func userDidSelectArticle(at indexPath: IndexPath ) -> ArticleResultModel?
 }

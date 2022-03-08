@@ -26,6 +26,8 @@
 		011C81C627D7A0BF002411B7 /* ArticleListCellUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011C81C527D7A0BF002411B7 /* ArticleListCellUIModel.swift */; };
 		011C81C827D7A185002411B7 /* URLsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011C81C727D7A185002411B7 /* URLsConstants.swift */; };
 		011C81CA27D7A1D3002411B7 /* ArticlesViewController+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011C81C927D7A1D2002411B7 /* ArticlesViewController+Data.swift */; };
+		011C81D427D7C428002411B7 /* ArticleDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011C81D327D7C427002411B7 /* ArticleDetailsViewController.swift */; };
+		011C81D727D7C5E1002411B7 /* ArticlesViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011C81D627D7C5E1002411B7 /* ArticlesViewController+Navigation.swift */; };
 		014F32E727D6AA7400037093 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014F32E627D6AA7400037093 /* AppDelegate.swift */; };
 		014F32EB27D6AA7400037093 /* ArticlesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014F32EA27D6AA7400037093 /* ArticlesViewController.swift */; };
 		014F32EE27D6AA7400037093 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 014F32EC27D6AA7400037093 /* Main.storyboard */; };
@@ -78,6 +80,8 @@
 		011C81C527D7A0BF002411B7 /* ArticleListCellUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListCellUIModel.swift; sourceTree = "<group>"; };
 		011C81C727D7A185002411B7 /* URLsConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLsConstants.swift; sourceTree = "<group>"; };
 		011C81C927D7A1D2002411B7 /* ArticlesViewController+Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ArticlesViewController+Data.swift"; sourceTree = "<group>"; };
+		011C81D327D7C427002411B7 /* ArticleDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailsViewController.swift; sourceTree = "<group>"; };
+		011C81D627D7C5E1002411B7 /* ArticlesViewController+Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ArticlesViewController+Navigation.swift"; sourceTree = "<group>"; };
 		014F32E327D6AA7400037093 /* Articles_Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Articles_Task.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		014F32E627D6AA7400037093 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		014F32EA27D6AA7400037093 /* ArticlesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesViewController.swift; sourceTree = "<group>"; };
@@ -156,6 +160,7 @@
 				011C81A027D79AC1002411B7 /* ArticlesViewController+UI.swift */,
 				011C81A227D79AE9002411B7 /* ArticlesViewController+TableView.swift */,
 				011C81C927D7A1D2002411B7 /* ArticlesViewController+Data.swift */,
+				011C81D627D7C5E1002411B7 /* ArticlesViewController+Navigation.swift */,
 			);
 			path = ArticlesViewController;
 			sourceTree = "<group>";
@@ -228,6 +233,22 @@
 				011C81C527D7A0BF002411B7 /* ArticleListCellUIModel.swift */,
 			);
 			path = UIModels;
+			sourceTree = "<group>";
+		};
+		011C81D227D7C411002411B7 /* ArticleDetails */ = {
+			isa = PBXGroup;
+			children = (
+				011C81D527D7C43E002411B7 /* ArticleDetailsViewController */,
+			);
+			path = ArticleDetails;
+			sourceTree = "<group>";
+		};
+		011C81D527D7C43E002411B7 /* ArticleDetailsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				011C81D327D7C427002411B7 /* ArticleDetailsViewController.swift */,
+			);
+			path = ArticleDetailsViewController;
 			sourceTree = "<group>";
 		};
 		014F32DA27D6AA7400037093 = {
@@ -303,6 +324,7 @@
 			isa = PBXGroup;
 			children = (
 				014F331D27D6AC7D00037093 /* Articles */,
+				011C81D227D7C411002411B7 /* ArticleDetails */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -630,6 +652,7 @@
 				011C81B027D79ED9002411B7 /* ArticleModel.swift in Sources */,
 				011C81C327D7A060002411B7 /* ArticlesViewModel.swift in Sources */,
 				011C81B927D79F87002411B7 /* ArticlesDataServiceProtocol.swift in Sources */,
+				011C81D427D7C428002411B7 /* ArticleDetailsViewController.swift in Sources */,
 				011C819D27D799DE002411B7 /* ArticleTableViewCell.swift in Sources */,
 				011C81A327D79AE9002411B7 /* ArticlesViewController+TableView.swift in Sources */,
 				014F332027D6B17800037093 /* UIViewController+Alert.swift in Sources */,
@@ -637,6 +660,7 @@
 				011C81A927D79D05002411B7 /* UIImageView+Extensions.swift in Sources */,
 				011C81BB27D79FA7002411B7 /* ArticlesDataService.swift in Sources */,
 				011C81B427D79F1F002411B7 /* ArticleResultMediaModel.swift in Sources */,
+				011C81D727D7C5E1002411B7 /* ArticlesViewController+Navigation.swift in Sources */,
 				014F32EB27D6AA7400037093 /* ArticlesViewController.swift in Sources */,
 				011C81A127D79AC1002411B7 /* ArticlesViewController+UI.swift in Sources */,
 				011C81BF27D7A015002411B7 /* ArticlesViewModelProtocol.swift in Sources */,

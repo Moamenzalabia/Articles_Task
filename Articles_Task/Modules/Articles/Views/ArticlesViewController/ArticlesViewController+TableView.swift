@@ -26,7 +26,8 @@ extension ArticlesViewController: UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        viewModel?.userDidSelectArticle(at: indexPath)
+        let selectedArticle = viewModel?.userDidSelectArticle(at: indexPath)
+        navigateToArticleDetails(with: selectedArticle)
     }
     
 }

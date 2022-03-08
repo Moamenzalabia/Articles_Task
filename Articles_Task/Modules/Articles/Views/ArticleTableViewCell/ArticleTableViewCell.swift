@@ -19,6 +19,8 @@ class ArticleTableViewCell: UITableViewCell {
     // MARK: - Properties
     override func awakeFromNib() {
         super.awakeFromNib()
+        containerView.addCornerRadius(10)
+        containerView.addShadowWith()
     }
     
 }

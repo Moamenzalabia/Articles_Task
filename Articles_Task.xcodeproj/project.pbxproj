@@ -11,6 +11,8 @@
 		011C819E27D799DE002411B7 /* ArticleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 011C819C27D799DE002411B7 /* ArticleTableViewCell.xib */; };
 		011C81A127D79AC1002411B7 /* ArticlesViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011C81A027D79AC1002411B7 /* ArticlesViewController+UI.swift */; };
 		011C81A327D79AE9002411B7 /* ArticlesViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011C81A227D79AE9002411B7 /* ArticlesViewController+TableView.swift */; };
+		011C81A627D79CD1002411B7 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011C81A527D79CD1002411B7 /* UIView+Extensions.swift */; };
+		011C81A927D79D05002411B7 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011C81A827D79D05002411B7 /* UIImageView+Extensions.swift */; };
 		014F32E727D6AA7400037093 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014F32E627D6AA7400037093 /* AppDelegate.swift */; };
 		014F32EB27D6AA7400037093 /* ArticlesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014F32EA27D6AA7400037093 /* ArticlesViewController.swift */; };
 		014F32EE27D6AA7400037093 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 014F32EC27D6AA7400037093 /* Main.storyboard */; };
@@ -48,6 +50,8 @@
 		011C819C27D799DE002411B7 /* ArticleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticleTableViewCell.xib; sourceTree = "<group>"; };
 		011C81A027D79AC1002411B7 /* ArticlesViewController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ArticlesViewController+UI.swift"; sourceTree = "<group>"; };
 		011C81A227D79AE9002411B7 /* ArticlesViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ArticlesViewController+TableView.swift"; sourceTree = "<group>"; };
+		011C81A527D79CD1002411B7 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		011C81A827D79D05002411B7 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 		014F32E327D6AA7400037093 /* Articles_Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Articles_Task.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		014F32E627D6AA7400037093 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		014F32EA27D6AA7400037093 /* ArticlesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +131,22 @@
 				011C81A227D79AE9002411B7 /* ArticlesViewController+TableView.swift */,
 			);
 			path = ArticlesViewController;
+			sourceTree = "<group>";
+		};
+		011C81A427D79CBD002411B7 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				011C81A527D79CD1002411B7 /* UIView+Extensions.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		011C81A727D79CFB002411B7 /* UIImageView+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				011C81A827D79D05002411B7 /* UIImageView+Extensions.swift */,
+			);
+			path = "UIImageView+Extensions";
 			sourceTree = "<group>";
 		};
 		014F32DA27D6AA7400037093 = {
@@ -217,6 +237,8 @@
 		014F331A27D6AC1100037093 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				011C81A427D79CBD002411B7 /* UIView */,
+				011C81A727D79CFB002411B7 /* UIImageView+Extensions */,
 				014F332127D6B1C400037093 /* UITableView */,
 				014F331E27D6B16000037093 /* UIViewController */,
 			);
@@ -529,9 +551,11 @@
 				011C819D27D799DE002411B7 /* ArticleTableViewCell.swift in Sources */,
 				011C81A327D79AE9002411B7 /* ArticlesViewController+TableView.swift in Sources */,
 				014F332027D6B17800037093 /* UIViewController+Alert.swift in Sources */,
+				011C81A927D79D05002411B7 /* UIImageView+Extensions.swift in Sources */,
 				014F32EB27D6AA7400037093 /* ArticlesViewController.swift in Sources */,
 				011C81A127D79AC1002411B7 /* ArticlesViewController+UI.swift in Sources */,
 				014F32E727D6AA7400037093 /* AppDelegate.swift in Sources */,
+				011C81A627D79CD1002411B7 /* UIView+Extensions.swift in Sources */,
 				014F332327D6B1D300037093 /* UITableView+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

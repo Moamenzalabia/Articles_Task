@@ -11,7 +11,7 @@ import UIKit
 extension ArticlesViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+        return viewModel?.numberOfArticlesCells ?? 0
     }
 }
 
@@ -19,7 +19,14 @@ extension ArticlesViewController: UITableViewDelegate {
 extension ArticlesViewController: UITableViewDataSource{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeue() as ArticleTableViewCell
+        if let article = viewModel?.getArticleUIDataModel(at: indexPath) {
+            cell.configure(article)
+        }
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        viewModel?.userDidSelectArticle(at: indexPath)
     }
     
 }

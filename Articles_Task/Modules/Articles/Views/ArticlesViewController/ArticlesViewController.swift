@@ -13,13 +13,16 @@ class ArticlesViewController: UIViewController {
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     @IBOutlet weak var ArticlesTableView: UITableView!
     
+    // MARK: - Properties
+    var viewModel: ArticlesViewModelProtocol?
     
     // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        activityIndicator.isHidden = true
+        viewModel = ArticlesViewModel(service: ArticlesDataService())
         setupTableView()
-        
+        setAccessibilityIdentifier()
+        initViewModel()
     }
     
 }

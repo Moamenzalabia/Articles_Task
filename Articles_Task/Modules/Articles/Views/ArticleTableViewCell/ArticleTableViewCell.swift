@@ -23,4 +23,11 @@ class ArticleTableViewCell: UITableViewCell {
         containerView.addShadowWith()
     }
     
+    func configure(_ article: ArticleListCellUIModel) {
+        articleBylineLabel.text = article.bylineText
+        articleDescriptionLabel.text = article.descText
+        articleDateLabel.text = article.published_dateText
+        articleImage.setImage(imageUrl: article.imageUrl ?? "")
+    }
+    
 }

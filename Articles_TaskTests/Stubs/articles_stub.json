@@ -1,0 +1,185 @@
+{
+    "status": "OK",
+    "copyright": "Copyright (c) 2022 The New York Times Company.  All Rights Reserved.",
+    "num_results": 20,
+    "results": [
+        {
+            "uri": "nyt://article/b0133310-0ebd-59c1-8579-f9a3d7ffd3e2",
+            "url": "https://www.nytimes.com/2022/03/06/world/europe/ukraine-irpin-civilian-death.html",
+            "id": 100000008241803,
+            "asset_id": 100000008241803,
+            "source": "New York Times",
+            "published_date": "2022-03-06",
+            "updated": "2022-03-06 18:28:31",
+            "section": "World",
+            "subsection": "Europe",
+            "nytdsection": "world",
+            "adx_keywords": "Russian Invasion of Ukraine (2022);War and Armed Conflicts;Civilian Casualties",
+            "column": null,
+            "byline": "By Lynsey Addario",
+            "type": "Article",
+            "title": "Russian forces fire on evacuees, leaving 4 people dead outside Kyiv.",
+            "abstract": "The attack in Irpin, west of the capital, suggested either direct targeting of evacuees or disregard for the risk of civilian casualties.",
+            "des_facet": [
+                "Russian Invasion of Ukraine (2022)",
+                "War and Armed Conflicts",
+                "Civilian Casualties"
+            ],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Lynsey Addario for The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/06/world/06ukraine-irpin-breakout/06ukraine-irpin-breakout-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/06/world/06ukraine-irpin-breakout/06ukraine-irpin-breakout-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/06/world/06ukraine-irpin-breakout/06ukraine-irpin-breakout-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/92b04a69-7aba-50fa-a609-93b6ce94cfb9",
+            "url": "https://www.nytimes.com/2022/03/07/opinion/campus-speech-cancel-culture.html",
+            "id": 100000008210334,
+            "asset_id": 100000008210334,
+            "source": "New York Times",
+            "published_date": "2022-03-07",
+            "updated": "2022-03-08 14:17:11",
+            "section": "Opinion",
+            "subsection": "",
+            "nytdsection": "opinion",
+            "adx_keywords": "Colleges and Universities;Freedom of Speech and Expression;Cancel Culture;Censorship;University of Virginia",
+            "column": null,
+            "byline": "By Emma Camp",
+            "type": "Article",
+            "title": "I Came to College Eager to Debate. I Found Self-Censorship Instead.",
+            "abstract": "When we censor ourselves, our learning environments suffer.",
+            "des_facet": [
+                "Colleges and Universities",
+                "Freedom of Speech and Expression",
+                "Cancel Culture",
+                "Censorship"
+            ],
+            "org_facet": [
+                "University of Virginia"
+            ],
+            "per_facet": [],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "The author on the campus of the University of Virginia.",
+                    "copyright": "Eze Amos for The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/09/opinion/07Camp1/07Camp1-thumbStandard-v4.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/09/opinion/07Camp1/07Camp1-mediumThreeByTwo210-v4.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/09/opinion/07Camp1/07Camp1-mediumThreeByTwo440-v4.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/8cc5160c-58dc-5f8b-a2f6-967952d93b5a",
+            "url": "https://www.nytimes.com/2022/03/07/world/asia/putin-ukraine-china-xi.html",
+            "id": 100000008237137,
+            "asset_id": 100000008237137,
+            "source": "New York Times",
+            "published_date": "2022-03-07",
+            "updated": "2022-03-08 10:04:46",
+            "section": "World",
+            "subsection": "Asia Pacific",
+            "nytdsection": "world",
+            "adx_keywords": "Russian Invasion of Ukraine (2022);International Relations;United States International Relations;Putin, Vladimir V;Xi Jinping;Russia;China;Ukraine",
+            "column": null,
+            "byline": "By Chris Buckley and Steven Lee Myers",
+            "type": "Article",
+            "title": "‘No Wavering’: After Turning to Putin, Xi Faces Hard Wartime Choices for China",
+            "abstract": "Beijing aligned itself with Putin as Russia prepared to invade Ukraine. Now its efforts to edge away are constrained by leadership politics.",
+            "des_facet": [
+                "Russian Invasion of Ukraine (2022)",
+                "International Relations",
+                "United States International Relations"
+            ],
+            "org_facet": [],
+            "per_facet": [
+                "Putin, Vladimir V",
+                "Xi Jinping"
+            ],
+            "geo_facet": [
+                "Russia",
+                "China",
+                "Ukraine"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "President Vladimir V. Putin of Russia with China’s leader, Xi Jinping, in Beijing on Feb. 4. In a joint statement, the leaders had vowed that their countries’ friendship had “no limits.”",
+                    "copyright": "Li Tao/Xinhua, via Associated Press",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/04/world/00CHINA-UKRAINE-02/00CHINA-UKRAINE-02-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/04/world/00CHINA-UKRAINE-02/merlin_201323079_070d513e-8678-4dc0-8e72-c82b8c1d2185-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2022/03/04/world/00CHINA-UKRAINE-02/merlin_201323079_070d513e-8678-4dc0-8e72-c82b8c1d2185-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        }
+    ]
+}

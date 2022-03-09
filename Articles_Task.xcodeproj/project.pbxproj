@@ -38,7 +38,7 @@
 		014F32F027D6AA7500037093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 014F32EF27D6AA7500037093 /* Assets.xcassets */; };
 		014F32F327D6AA7500037093 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 014F32F127D6AA7500037093 /* LaunchScreen.storyboard */; };
 		014F32FE27D6AA7600037093 /* ArticleTableViewCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014F32FD27D6AA7600037093 /* ArticleTableViewCellTests.swift */; };
-		014F330827D6AA7600037093 /* Articles_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014F330727D6AA7600037093 /* Articles_TaskUITests.swift */; };
+		014F330827D6AA7600037093 /* ArticlesViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014F330727D6AA7600037093 /* ArticlesViewControllerUITests.swift */; };
 		014F330A27D6AA7600037093 /* LaunchScreenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014F330927D6AA7600037093 /* LaunchScreenUITests.swift */; };
 		014F332027D6B17800037093 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014F331F27D6B17800037093 /* UIViewController+Alert.swift */; };
 		014F332327D6B1D300037093 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014F332227D6B1D300037093 /* UITableView+Extensions.swift */; };
@@ -100,7 +100,7 @@
 		014F32F927D6AA7600037093 /* Articles_TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Articles_TaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		014F32FD27D6AA7600037093 /* ArticleTableViewCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCellTests.swift; sourceTree = "<group>"; };
 		014F330327D6AA7600037093 /* Articles_TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Articles_TaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		014F330727D6AA7600037093 /* Articles_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Articles_TaskUITests.swift; sourceTree = "<group>"; };
+		014F330727D6AA7600037093 /* ArticlesViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesViewControllerUITests.swift; sourceTree = "<group>"; };
 		014F330927D6AA7600037093 /* LaunchScreenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenUITests.swift; sourceTree = "<group>"; };
 		014F331F27D6B17800037093 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
 		014F332227D6B1D300037093 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
@@ -358,7 +358,7 @@
 		014F330627D6AA7600037093 /* Articles_TaskUITests */ = {
 			isa = PBXGroup;
 			children = (
-				014F330727D6AA7600037093 /* Articles_TaskUITests.swift */,
+				014F330727D6AA7600037093 /* ArticlesViewControllerUITests.swift */,
 				014F330927D6AA7600037093 /* LaunchScreenUITests.swift */,
 			);
 			path = Articles_TaskUITests;
@@ -753,7 +753,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				014F330A27D6AA7600037093 /* LaunchScreenUITests.swift in Sources */,
-				014F330827D6AA7600037093 /* Articles_TaskUITests.swift in Sources */,
+				014F330827D6AA7600037093 /* ArticlesViewControllerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

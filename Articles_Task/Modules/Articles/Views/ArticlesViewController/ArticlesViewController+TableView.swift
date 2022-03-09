@@ -19,6 +19,8 @@ extension ArticlesViewController: UITableViewDelegate {
 extension ArticlesViewController: UITableViewDataSource{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeue() as ArticleTableViewCell
+        cell.isAccessibilityElement = true
+        cell.accessibilityIdentifier = "articleTableViewCellIdentifier"
         if let article = viewModel?.getArticleUIDataModel(at: indexPath) {
             cell.configure(article)
         }

@@ -41,7 +41,7 @@ extension ArticlesViewController {
             guard let self = self else {
                 return
             }
-            self.ArticlesTableView.reloadData()
+            self.articlesTableView.reloadData()
         }
         viewModel?.fetchArticles()
     }

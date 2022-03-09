@@ -9,11 +9,19 @@ import UIKit
 
 extension UITableView {
     
+    /**
+     Register UITableViewCell from a nib file
+     - Parameter cellClass: The UITableViewCell Class.self
+     - Note: When using the default nibName value, the nib file name **must** be the same as the class name.
+     */
     func registerCellNib<Cell: UITableViewCell>(cellClass: Cell.Type){
         self.register(UINib(nibName: String(describing: Cell.self), bundle: nil),
                       forCellReuseIdentifier: String(describing: Cell.self))
     }
     
+    /**
+     Dequeue UITableViewCell and return UITableViewCell can you cast for your UITableViewCell
+     */
     func dequeue<Cell: UITableViewCell>() -> Cell{
         let identifier = String(describing: Cell.self)
         

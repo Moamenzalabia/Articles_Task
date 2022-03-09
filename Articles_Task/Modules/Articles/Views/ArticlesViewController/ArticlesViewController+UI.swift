@@ -20,9 +20,9 @@ extension ArticlesViewController {
     }
     
     func setupTableView() {
-        ArticlesTableView.delegate = self
-        ArticlesTableView.dataSource = self
-        ArticlesTableView.registerCellNib(cellClass: ArticleTableViewCell.self)
+        articlesTableView.delegate = self
+        articlesTableView.dataSource = self
+        articlesTableView.registerCellNib(cellClass: ArticleTableViewCell.self)
     }
     
     func startLoading() {
@@ -31,7 +31,7 @@ extension ArticlesViewController {
                 return
             }
             self.activityIndicator.startAnimating()
-            self.ArticlesTableView.isHidden = true
+            self.articlesTableView.isHidden = true
         })
     }
     
@@ -41,12 +41,12 @@ extension ArticlesViewController {
                 return
             }
             self.activityIndicator.stopAnimating()
-            self.ArticlesTableView.isHidden = false
+            self.articlesTableView.isHidden = false
         })
     }
     
     func setAccessibilityIdentifier() {
-        ArticlesTableView.accessibilityIdentifier = "articlesTableViewIdentifier"
+        articlesTableView.accessibilityIdentifier = "articlesTableViewIdentifier"
         activityIndicator.accessibilityIdentifier = "activityIndicatorIdentifier"
     }
 }

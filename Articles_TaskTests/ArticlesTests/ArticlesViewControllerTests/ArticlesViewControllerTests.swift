@@ -39,7 +39,7 @@ class ArticlesViewControllerTests: XCTestCase {
         }
         
         wait(for: [expectation], timeout: 6)
-        let cell = articlesViewController?.tableView(articlesViewController.ArticlesTableView, cellForRowAt: IndexPath(
+        let cell = articlesViewController?.tableView(articlesViewController.articlesTableView, cellForRowAt: IndexPath(
             row: 1,
             section: 0))
         XCTAssertTrue(cell is ArticleTableViewCell)
@@ -57,7 +57,7 @@ class ArticlesViewControllerTests: XCTestCase {
         }
         
         wait(for: [expectation], timeout: 6)
-        XCTAssertEqual(articlesViewController?.tableView(articlesViewController.ArticlesTableView, numberOfRowsInSection: 0), 3)
+        XCTAssertEqual(articlesViewController?.tableView(articlesViewController.articlesTableView, numberOfRowsInSection: 0), 3)
     }
     
     func testFetchArticlesSuccessScenario() {
@@ -115,24 +115,24 @@ class ArticlesViewControllerTests: XCTestCase {
         wait(for: [expectation], timeout: 6)
         
         let indexPath = IndexPath(row: 1, section: 0)
-        articlesViewController.tableView(articlesViewController.ArticlesTableView, didSelectRowAt: indexPath)
+        articlesViewController.tableView(articlesViewController.articlesTableView, didSelectRowAt: indexPath)
         XCTAssertNotNil(articlesViewController.viewModel?.userDidSelectArticle(at: indexPath))
     }
     
     func testStartLoading() {
         articlesViewController.startLoading()
-        XCTAssertTrue(articlesViewController.ArticlesTableView.isHidden)
+        XCTAssertTrue(articlesViewController.articlesTableView.isHidden)
         XCTAssertTrue(articlesViewController.activityIndicator.isAnimating)
     }
     
     func testStopLoading() {
         articlesViewController.stopLoading()
-        XCTAssertFalse(articlesViewController.ArticlesTableView.isHidden)
+        XCTAssertFalse(articlesViewController.articlesTableView.isHidden)
         XCTAssertFalse(articlesViewController.activityIndicator.isAnimating)
     }
     
     func testSetupAccessibilityIdentifier() {
-        XCTAssertEqual(articlesViewController.ArticlesTableView.accessibilityIdentifier, "articlesTableViewIdentifier")
+        XCTAssertEqual(articlesViewController.articlesTableView.accessibilityIdentifier, "articlesTableViewIdentifier")
         XCTAssertEqual(articlesViewController.activityIndicator.accessibilityIdentifier, "activityIndicatorIdentifier")
     }
 }

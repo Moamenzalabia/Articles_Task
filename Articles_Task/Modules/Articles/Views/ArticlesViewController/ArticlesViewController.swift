@@ -11,7 +11,7 @@ class ArticlesViewController: UIViewController {
     
     // MARK: IBOutlets
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
-    @IBOutlet weak var ArticlesTableView: UITableView!
+    @IBOutlet weak var articlesTableView: UITableView!
     
     // MARK: - Properties
     var viewModel: ArticlesViewModelProtocol?

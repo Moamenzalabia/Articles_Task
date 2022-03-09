@@ -1,5 +1,5 @@
 //
-//  Articles_TaskUITestsLaunchTests.swift
+//  LaunchScreenUITests.swift
 //  Articles_TaskUITests
 //
 //  Created by Moamen Abd Elgawad on 07/03/2022.
@@ -7,24 +7,24 @@
 
 import XCTest
 
-class Articles_TaskUITestsLaunchTests: XCTestCase {
+class LaunchScreenUITests: XCTestCase {
+    let application = XCUIApplication()
 
+    override func setUp() {
+        // Put setup code here. This method is called before the invocation of each test method in the class.
+
+        // In UI tests it is usually best to stop immediately when a failure occurs.
+        continueAfterFailure = true
+        application.launch()
+        // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
+    }
+    
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
     }
 
-    override func setUpWithError() throws {
-        continueAfterFailure = false
-    }
-
-    func testLaunch() throws {
-        let app = XCUIApplication()
-        app.launch()
-
-        // Insert steps here to perform after app launch but before taking a screenshot,
-        // such as logging into a test account or navigating somewhere in the app
-
-        let attachment = XCTAttachment(screenshot: app.screenshot())
+    func testLaunchScreen() throws {
+        let attachment = XCTAttachment(screenshot: application.screenshot())
         attachment.name = "Launch Screen"
         attachment.lifetime = .keepAlways
         add(attachment)

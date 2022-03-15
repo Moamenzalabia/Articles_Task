@@ -1,4 +1,4 @@
-# Boubyan Bank Assignment - iOS Developer 
+# Assignment - iOS Developer 
 
 Assignment Requirement: Create a simple iOS mobile application that:
 
